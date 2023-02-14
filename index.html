@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Web Page</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Welcome to My Web Page</h1>
-      <p>This is a simple example of an HTML file.</p>
-      <img src="/images/cat.jpeg" alt="">
-      <h2>A List of Things</h2>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+    <nav>
       <ul>
-        <li>Moi </li>
-        <li>Moi 2</li>
-        <li>Moi 3</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
-    </main>
-    <footer>
-      <p>Copyright © 2023 My Web Page</p>
-    </footer>
-  </body>
+    </nav>
+  </header>
+  <div class="left-bar">
+    <h2>Poll</h2>
+    <form>
+      <label><input type="radio" name="poll" value="choice1"> Choice 1</label>
+      <label><input type="radio" name="poll" value="choice2"> Choice 2</label>
+      <button type="submit">Vote</button>
+    </form>
+  </div>
+  <main>
+    <article>
+      <h2>Article 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac enim a sapien tincidunt dictum. Fusce venenatis, eros id vulputate lacinia, massa dolor interdum tortor, vel pharetra urna risus eu felis.</p>
+    </article>
+    <article>
+      <h2>Article 2</h2>
+      <p>Proin vestibulum magna ut libero commodo, ut efficitur sapien dictum. Sed sed commodo justo. Nam id laoreet libero. Sed a lorem nulla. Aliquam sed sem nec lorem commodo blandit eu ut sapien.</p>
+    </article>
+  </main>
+  <footer>
+    &copy; 2023 My Website. All rights reserved.
+  </footer>
+</body>
 </html>
