@@ -1,0 +1,126 @@
+/* Set global styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #444;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Style the left bar */
+.left-bar {
+  background-color: #fff;
+  color: #444;
+  padding: 20px;
+  width: 200px;
+  position: sticky;
+  top: 80px;
+}
+
+.left-bar h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.left-bar form {
+  margin-top: 20px;
+}
+
+.left-bar label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.left-bar button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.left-bar button:hover {
+  background-color: #ffd700;
+}
+
+/* Style the main section */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+article {
+  background-color: #fff;
+  color: #444;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-basis: calc(50% - 10px);
+  transition: all 0.2s ease-in-out;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
