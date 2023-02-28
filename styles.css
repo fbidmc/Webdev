@@ -67,26 +67,35 @@ header {
   text-align: center;
 }
 
-nav {
+#main-ul {
   display: flex;
   justify-content: center;
 }
 
-nav ul {
+#main-ul ul {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-nav li {
+#main-ul li {
   margin: 0 10px;
 }
 
-nav a {
-  color: #333;
+#main-ul a {
+  display: block;
+  padding: 5px 10px;
   text-decoration: none;
+  color: #333;
   font-weight: bold;
-  font-size: 18px;
+  border-radius: 5px;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
 }
+
+#main-ul a:hover {
+  background-color: #ccc;
+}
+
 
