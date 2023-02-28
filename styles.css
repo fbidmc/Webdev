@@ -3,3 +3,43 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #666;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #999;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #eee;
+  margin-top: 5px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 2px;
+}
