@@ -43,3 +43,11 @@ h6 {
   color: #fff;
   margin-top: 2px;
 }
+
+
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
