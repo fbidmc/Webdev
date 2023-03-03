@@ -164,3 +164,18 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #eee;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#ideas {
+  margin-left: 25%;
+}
